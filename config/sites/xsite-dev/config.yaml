@@ -1,64 +1,18 @@
 base: 'https://dev.xsite.ch/'
 baseVariants: {  }
-errorHandling:
-  -
-    errorCode: '404'
-    errorHandler: Page
-    errorContentSource: 't3://page?uid=3'
+errorHandling: {  }
 languages:
-  -
-    title: Deutsch
-    enabled: true
-    base: /
-    typo3Language: de
-    locale: de_DE.UTF8
-    iso-639-1: de
-    navigationTitle: DE
-    hreflang: de-DE
-    direction: ltr
-    flag: global
-    languageId: '0'
-  -
-    title: Français
-    enabled: true
-    base: /fr/
-    typo3Language: fr
-    locale: fr_FR.UTF8
-    iso-639-1: fr
-    navigationTitle: FR
-    hreflang: fr-FR
-    direction: ltr
-    fallbackType: strict
-    fallbacks: ''
-    flag: fr
-    languageId: '3'
-  -
-    title: Italiano
-    enabled: true
-    base: /it/
-    typo3Language: it
-    locale: it_IT.UTF8
-    iso-639-1: it
-    navigationTitle: IT
-    hreflang: it-IT
-    direction: ltr
-    fallbackType: strict
-    fallbacks: ''
-    flag: it
-    languageId: '4'
   -
     title: English
     enabled: true
-    base: /en/
+    base: /
     typo3Language: default
-    locale: en_GB.UTF8
+    locale: en_US.UTF8
     iso-639-1: en
     navigationTitle: EN
-    hreflang: en-GB
+    hreflang: en-US
     direction: ltr
-    fallbackType: strict
-    fallbacks: ''
-    flag: gb
-    languageId: '2'
-rootPageId: 1
+    flag: us
+    languageId: '0'
+rootPageId: 7
 routes: {  }
