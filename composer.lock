@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40bd4569fa24240b327a99cdbfd11d9c",
+    "content-hash": "d7eccbe27f0601989baec8ee61885f47",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -3257,6 +3257,58 @@
                 }
             ],
             "description": "List of database-records",
+            "homepage": "https://typo3.org",
+            "time": "2019-10-30T20:46:49+00:00"
+        },
+        {
+            "name": "typo3/cms-redirects",
+            "version": "v9.5.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/redirects.git",
+                "reference": "d4e25dc6f952184aef8ad599359578096283c67a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/redirects/zipball/d4e25dc6f952184aef8ad599359578096283c67a",
+                "reference": "d4e25dc6f952184aef8ad599359578096283c67a",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-backend": "9.5.11",
+                "typo3/cms-core": "9.5.11",
+                "typo3fluid/fluid": "^2.6.1"
+            },
+            "conflict": {
+                "typo3/cms": "*",
+                "typo3fluid/fluid": "2.6.4 || 2.6.5"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "redirects",
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Redirects\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Custom redirects in TYPO3.",
             "homepage": "https://typo3.org",
             "time": "2019-10-30T20:46:49+00:00"
         },
