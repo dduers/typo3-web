@@ -15,7 +15,9 @@
         "georgringer/news": "^7.3",
         "typo3/cms-tstemplate": "~9.5.0",
         "typo3/cms-form": "~9.5.0",
-        "typo3/cms-redirects": "~9.5.0"
+        "typo3/cms-redirects": "~9.5.0",
+        "typo3/cms-t3editor": "~9.5.0",
+        "typo3/cms-scheduler": "~9.5.0"
     },
     "extra": {
         "typo3/cms": {

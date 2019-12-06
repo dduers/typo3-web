@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7eccbe27f0601989baec8ee61885f47",
+    "content-hash": "c53aeab6549a1413cca1d1fe949028c2",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -3365,6 +3365,52 @@
             "time": "2019-10-30T20:46:49+00:00"
         },
         {
+            "name": "typo3/cms-scheduler",
+            "version": "v9.5.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/scheduler.git",
+                "reference": "664e430a91cd55ca730493c7df3de355240ff252"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/scheduler/zipball/664e430a91cd55ca730493c7df3de355240ff252",
+                "reference": "664e430a91cd55ca730493c7df3de355240ff252",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.11"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "scheduler"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Scheduler\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The TYPO3 Scheduler let's you register tasks to happen at a specific time",
+            "homepage": "https://typo3.org",
+            "time": "2019-10-30T20:46:49+00:00"
+        },
+        {
             "name": "typo3/cms-seo",
             "version": "v9.5.11",
             "source": {
@@ -3412,6 +3458,60 @@
                 }
             ],
             "description": "SEO features for TYPO3.",
+            "homepage": "https://typo3.org",
+            "time": "2019-10-30T20:46:49+00:00"
+        },
+        {
+            "name": "typo3/cms-t3editor",
+            "version": "v9.5.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/t3editor.git",
+                "reference": "2cbf3a89c38fe448f1223604735320fdad6ecf4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/t3editor/zipball/2cbf3a89c38fe448f1223604735320fdad6ecf4f",
+                "reference": "2cbf3a89c38fe448f1223604735320fdad6ecf4f",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.11"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "t3editor"
+                },
+                "typo3/class-alias-loader": {
+                    "class-alias-maps": [
+                        "Migrations/Code/ClassAliasMap.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\T3editor\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JavaScript-driven editor with syntax highlighting and codecompletion. Based on CodeMirror.",
             "homepage": "https://typo3.org",
             "time": "2019-10-30T20:46:49+00:00"
         },
