@@ -1,6 +1,6 @@
 {
     "name": "dduers/typo3-composer-test",
-    "description": "This is a first test run for installing Typo3 with composer",
+    "description": "This is a first test run for installing Typo3 with composer 1",
     "type": "project",
     "license": "MIT",
     "authors": [
