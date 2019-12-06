@@ -2,3 +2,5 @@ private
 public
 var
 vendor
+config
+.htaccess
