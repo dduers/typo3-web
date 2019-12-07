@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c53aeab6549a1413cca1d1fe949028c2",
+    "content-hash": "bf786b3a6775561ba80e2a386c3087dd",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -2606,6 +2606,55 @@
             "time": "2019-10-30T20:46:49+00:00"
         },
         {
+            "name": "typo3/cms-belog",
+            "version": "v9.5.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/belog.git",
+                "reference": "bc07a3cb10d2333d46861d584c1e1054f226e0b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/belog/zipball/bc07a3cb10d2333d46861d584c1e1054f226e0b9",
+                "reference": "bc07a3cb10d2333d46861d584c1e1054f226e0b9",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.11"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "belog"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Belog\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Displays backend log, both per page and system wide. Available as the module Tools>Log (system wide overview) and Web>Info/Log (page relative overview).",
+            "homepage": "https://typo3.org",
+            "time": "2019-10-30T20:46:49+00:00"
+        },
+        {
             "name": "typo3/cms-cli",
             "version": "2.0.0",
             "source": {
@@ -3146,6 +3195,64 @@
                 }
             ],
             "description": "Classes for the frontend of TYPO3.",
+            "homepage": "https://typo3.org",
+            "time": "2019-10-30T20:46:49+00:00"
+        },
+        {
+            "name": "typo3/cms-info",
+            "version": "v9.5.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/info.git",
+                "reference": "d02bda81961c2f67294b58a96b97b16ec880beb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/info/zipball/d02bda81961c2f67294b58a96b97b16ec880beb8",
+                "reference": "d02bda81961c2f67294b58a96b97b16ec880beb8",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.11"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "replace": {
+                "typo3/cms-info-pagetsconfig": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "info"
+                },
+                "typo3/class-alias-loader": {
+                    "always-add-alias-loader": true,
+                    "class-alias-maps": [
+                        "Migrations/Code/ClassAliasMap.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Info\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Shows various infos",
             "homepage": "https://typo3.org",
             "time": "2019-10-30T20:46:49+00:00"
         },
