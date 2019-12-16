@@ -57,16 +57,16 @@
         },
         {
             "name": "bk2k/bootstrap-package",
-            "version": "11.0.1",
+            "version": "11.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "d7b25801ef75806779e31cc98008e908969ae8a5"
+                "reference": "117d80eee9d898baabd84b8811dae72c81a18369"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/d7b25801ef75806779e31cc98008e908969ae8a5",
-                "reference": "d7b25801ef75806779e31cc98008e908969ae8a5",
+                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/117d80eee9d898baabd84b8811dae72c81a18369",
+                "reference": "117d80eee9d898baabd84b8811dae72c81a18369",
                 "shasum": ""
             },
             "require": {
@@ -74,7 +74,7 @@
                 "ext-libxml": "*",
                 "ext-simplexml": "*",
                 "php": ">=7.2.0",
-                "scssphp/scssphp": "^1.0.4",
+                "scssphp/scssphp": "^1.0.6",
                 "typo3/cms-backend": "^9.5 || ^10.0 || 10.*@dev",
                 "typo3/cms-core": "^9.5 || ^10.0 || 10.*@dev",
                 "typo3/cms-extbase": "^9.5 || ^10.0 || 10.*@dev",
@@ -85,6 +85,9 @@
                 "typo3/cms-rte-ckeditor": "^9.5 || ^10.0 || 10.*@dev",
                 "typo3/cms-seo": "^9.5 || ^10.0 || 10.*@dev"
             },
+            "conflict": {
+                "scssphp/scssphp": "1.0.4 || 1.0.5"
+            },
             "require-dev": {
                 "bk2k/extension-helper": "^1.0",
                 "friendsofphp/php-cs-fixer": "^2.3.1",
@@ -92,6 +95,8 @@
                 "typo3/cms-felogin": "^9.5 || ^10.0 || 10.*@dev",
                 "typo3/cms-form": "^9.5 || ^10.0 || 10.*@dev",
                 "typo3/cms-indexed-search": "^9.5 || ^10.0 || 10.*@dev",
+                "typo3/cms-info": "^9.5 || ^10.0 || 10.*@dev",
+                "typo3/cms-lowlevel": "^9.5 || ^10.0 || 10.*@dev",
                 "typo3/cms-tstemplate": "^9.5 || ^10.0 || 10.*@dev",
                 "typo3/testing-framework": "^4.9 || ^5.0"
             },
@@ -134,7 +139,7 @@
                 "theme",
                 "web"
             ],
-            "time": "2019-09-30T14:22:02+00:00"
+            "time": "2019-12-13T19:10:58+00:00"
         },
         {
             "name": "cogpowered/finediff",
@@ -692,16 +697,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.4.1",
+            "version": "6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "0895c932405407fd3a7368b6910c09a24d26db11"
+                "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0895c932405407fd3a7368b6910c09a24d26db11",
-                "reference": "0895c932405407fd3a7368b6910c09a24d26db11",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
+                "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
                 "shasum": ""
             },
             "require": {
@@ -716,12 +721,13 @@
                 "psr/log": "^1.1"
             },
             "suggest": {
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.3-dev"
+                    "dev-master": "6.5-dev"
                 }
             },
             "autoload": {
@@ -754,7 +760,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2019-10-23T15:58:00+00:00"
+            "time": "2019-12-07T18:20:45+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -880,25 +886,25 @@
         },
         {
             "name": "helhum/typo3-composer-setup",
-            "version": "v0.5.4",
+            "version": "v0.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helhum/typo3-composer-setup.git",
-                "reference": "d8a7db5fc160bd652aae2837b324b26f7b5ed6d4"
+                "reference": "623a1c4ad5183621489838bad094df270a1ff2c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helhum/typo3-composer-setup/zipball/d8a7db5fc160bd652aae2837b324b26f7b5ed6d4",
-                "reference": "d8a7db5fc160bd652aae2837b324b26f7b5ed6d4",
+                "url": "https://api.github.com/repos/helhum/typo3-composer-setup/zipball/623a1c4ad5183621489838bad094df270a1ff2c2",
+                "reference": "623a1c4ad5183621489838bad094df270a1ff2c2",
                 "shasum": ""
             },
             "require": {
                 "typo3/cms-composer-installers": "^1.4 || ^2.0",
-                "typo3/minimal": "^7 || ^8 || ^9"
+                "typo3/minimal": "^7 || ^8 || ^9 || ^10"
             },
             "require-dev": {
                 "typo3-console/php-server-command": "^0.1.0",
-                "typo3/cms-core": "^8.7.10 || ^9.5.2"
+                "typo3/cms-core": "^8.7.10 || ^9.5.2 || ^10.2.0"
             },
             "suggest": {
                 "helhum/typo3-console": "TYPO3 Console is highly recommended for any TYPO3 composer setup.",
@@ -931,7 +937,7 @@
                 }
             ],
             "description": "Set up required entry points for TYPO3 web directory",
-            "time": "2018-12-16T11:45:46+00:00"
+            "time": "2019-12-11T13:21:23+00:00"
         },
         {
             "name": "helhum/typo3-secure-web",
@@ -1379,16 +1385,16 @@
         },
         {
             "name": "scssphp/scssphp",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scssphp/scssphp.git",
-                "reference": "98e10149058102817b493c5a147fa582cb62d46e"
+                "reference": "5b3c9d704950d8f9637f5110c36c281ec47dc13c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/98e10149058102817b493c5a147fa582cb62d46e",
-                "reference": "98e10149058102817b493c5a147fa582cb62d46e",
+                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/5b3c9d704950d8f9637f5110c36c281ec47dc13c",
+                "reference": "5b3c9d704950d8f9637f5110c36c281ec47dc13c",
                 "shasum": ""
             },
             "require": {
@@ -1436,7 +1442,7 @@
                 "scss",
                 "stylesheet"
             ],
-            "time": "2019-10-03T17:09:15+00:00"
+            "time": "2019-12-12T05:00:52+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
