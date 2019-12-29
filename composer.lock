@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf786b3a6775561ba80e2a386c3087dd",
+    "content-hash": "4c7502cd965edce9d4b470697d84455b",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -2985,6 +2985,55 @@
                 }
             ],
             "description": "TYPO3 Extension Manager",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
+            "name": "typo3/cms-felogin",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/felogin.git",
+                "reference": "d3255f101302070f356bf0c055992d6552e0e2ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/felogin/zipball/d3255f101302070f356bf0c055992d6552e0e2ce",
+                "reference": "d3255f101302070f356bf0c055992d6552e0e2ce",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "felogin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Felogin\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A template-based plugin to log in Website Users in the Frontend",
             "homepage": "https://typo3.org",
             "time": "2019-12-17T14:17:37+00:00"
         },

@@ -19,7 +19,8 @@
         "typo3/cms-t3editor": "~9.5.0",
         "typo3/cms-scheduler": "~9.5.0",
         "typo3/cms-info": "~9.5.0",
-        "typo3/cms-belog": "~9.5.0"
+        "typo3/cms-belog": "~9.5.0",
+        "typo3/cms-felogin": "~9.5.0"
     },
     "extra": {
         "typo3/cms": {
