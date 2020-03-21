@@ -10,7 +10,6 @@
         }
     ],
     "require": {
-        "helhum/typo3-secure-web": "^0.2.9"
     },
     "extra": {
         "typo3/cms": {
