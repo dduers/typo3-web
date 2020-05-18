@@ -21,7 +21,8 @@
         "typo3/cms-felogin": "~9.5.0",
         "helhum/typo3-secure-web": "^0.2.9",
         "georgringer/news": "^8.3",
-        "reelworx/rx-shariff": "^13"
+        "reelworx/rx-shariff": "^13",
+        "typo3/cms-beuser": "~9.5.0"
     },
     "extra": {
         "typo3/cms": {

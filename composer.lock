@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aedf13c8cf83c7cd62a38b3cc4ffd148",
+    "content-hash": "4d621dc0f5a63338c4dc34fb4ba56a57",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -3027,6 +3027,55 @@
                 }
             ],
             "description": "Displays backend log, both per page and system wide. Available as the module Tools>Log (system wide overview) and Web>Info/Log (page relative overview).",
+            "homepage": "https://typo3.org",
+            "time": "2020-05-12T10:36:00+00:00"
+        },
+        {
+            "name": "typo3/cms-beuser",
+            "version": "v9.5.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/beuser.git",
+                "reference": "f186b0f991c521e9730c92bd4df1d1e541dffa6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/beuser/zipball/f186b0f991c521e9730c92bd4df1d1e541dffa6a",
+                "reference": "f186b0f991c521e9730c92bd4df1d1e541dffa6a",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.17"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "beuser"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Beuser\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Backend user administration and overview. Allows you to compare the settings of users and verify their permissions and see who is online.",
             "homepage": "https://typo3.org",
             "time": "2020-05-12T10:36:00+00:00"
         },
