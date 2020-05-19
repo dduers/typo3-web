@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7679820498eeda4e3df8e3513614c09",
+    "content-hash": "9f4aa67357bae7607a1e0c4ec242c17b",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -4897,6 +4897,61 @@
                 }
             ],
             "description": "Custom redirects in TYPO3.",
+            "homepage": "https://typo3.org",
+            "time": "2020-05-19T13:16:31+00:00"
+        },
+        {
+            "name": "typo3/cms-reports",
+            "version": "v10.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/reports.git",
+                "reference": "d1aec0a9e7cc71b4fc483c92b5154d025f605c78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/reports/zipball/d1aec0a9e7cc71b4fc483c92b5154d025f605c78",
+                "reference": "d1aec0a9e7cc71b4fc483c92b5154d025f605c78",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "10.4.3"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "suggest": {
+                "typo3/cms-scheduler": "Determine system's status and send it via email"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.4.x-dev"
+                },
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "reports"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Reports\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The reports module groups several system reports.",
             "homepage": "https://typo3.org",
             "time": "2020-05-19T13:16:31+00:00"
         },
