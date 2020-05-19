@@ -11,17 +11,17 @@
     ],
     "require": {
         "bk2k/bootstrap-package": "^11.0",
-        "typo3/cms-tstemplate": "~9.5.0",
-        "typo3/cms-form": "~9.5.0",
-        "typo3/cms-redirects": "~9.5.0",
-        "typo3/cms-t3editor": "~9.5.0",
-        "typo3/cms-scheduler": "~9.5.0",
-        "typo3/cms-info": "~9.5.0",
-        "typo3/cms-belog": "~9.5.0",
-        "typo3/cms-felogin": "~9.5.0",
+        "typo3/cms-tstemplate": "~10.4.0",
+        "typo3/cms-form": "~10.4.0",
+        "typo3/cms-redirects": "~10.4.0",
+        "typo3/cms-t3editor": "~10.4.0",
+        "typo3/cms-scheduler": "~10.4.0",
+        "typo3/cms-info": "~10.4.0",
+        "typo3/cms-belog": "~10.4.0",
+        "typo3/cms-felogin": "~10.4.0",
         "helhum/typo3-secure-web": "^0.2.9",
         "georgringer/news": "^8.3",
-        "typo3/cms-beuser": "~9.5.0"
+        "typo3/cms-beuser": "~10.4.0"
     },
     "extra": {
         "typo3/cms": {
