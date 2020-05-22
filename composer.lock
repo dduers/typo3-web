@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c35fee4e9b296fdb33a569e1d8681e4",
+    "content-hash": "d1ee8c8fdcd9cbc5379705e3cbb81dc7",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -5110,6 +5110,58 @@
                 }
             ],
             "description": "SEO features for TYPO3.",
+            "homepage": "https://typo3.org",
+            "time": "2020-05-19T13:16:31+00:00"
+        },
+        {
+            "name": "typo3/cms-setup",
+            "version": "v10.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/setup.git",
+                "reference": "2debfeaa905117a40276533c96b9bd8a22044fe9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/setup/zipball/2debfeaa905117a40276533c96b9bd8a22044fe9",
+                "reference": "2debfeaa905117a40276533c96b9bd8a22044fe9",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "10.4.3"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.4.x-dev"
+                },
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "setup"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Setup\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allows users to edit a limited set of options for their user profile, eg. preferred language and their name and email address.",
             "homepage": "https://typo3.org",
             "time": "2020-05-19T13:16:31+00:00"
         },
