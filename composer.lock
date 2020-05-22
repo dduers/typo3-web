@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f4aa67357bae7607a1e0c4ec242c17b",
+    "content-hash": "2c35fee4e9b296fdb33a569e1d8681e4",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
