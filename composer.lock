@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1ee8c8fdcd9cbc5379705e3cbb81dc7",
+    "content-hash": "bade5addaae16f3045fd97a875a2118d",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1718,6 +1718,49 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "reelworx/rx-shariff",
+            "version": "v13.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/reelworx/rx_shariff.git",
+                "reference": "7f0175a17623988fc65e0670bb4975e5fe973607"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/reelworx/rx_shariff/get/7f0175a17623988fc65e0670bb4975e5fe973607.zip",
+                "reference": "7f0175a17623988fc65e0670bb4975e5fe973607",
+                "shasum": ""
+            },
+            "require": {
+                "php": "7.1.0 - 7.4.99",
+                "typo3/cms-core": "8.7.0 - 10.4.99"
+            },
+            "replace": {
+                "typo3-ter/rx-shariff": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "Reelworx\\RxShariff\\": "Classes/",
+                    "Heise\\Shariff\\": "Classes/Shariff/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Reelworx GmbH",
+                    "homepage": "https://reelworx.at/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Shariff implementation for TYPO3 CMS including the backend module, a viewhelper and a plugin.",
+            "homepage": "https://bitbucket.org/reelworx/rx_shariff",
+            "time": "2020-02-29T20:45:56+00:00"
         },
         {
             "name": "scssphp/scssphp",
