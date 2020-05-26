@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94c74037b31f412ab26e8dc7f31a8360",
+    "content-hash": "ba29521eb7c17dec2c0e0ed41088f518",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -4946,6 +4946,58 @@
                 }
             ],
             "description": "List of database-records",
+            "homepage": "https://typo3.org",
+            "time": "2020-05-19T13:16:31+00:00"
+        },
+        {
+            "name": "typo3/cms-recycler",
+            "version": "v10.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/recycler.git",
+                "reference": "a4327ff059cea1ff44125f932d8b1ce20aa6631e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/recycler/zipball/a4327ff059cea1ff44125f932d8b1ce20aa6631e",
+                "reference": "a4327ff059cea1ff44125f932d8b1ce20aa6631e",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "10.4.3"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "suggest": {
+                "typo3/cms-scheduler": "Remove deleted records after given time"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.4.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "recycler"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Recycler\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The recycler offers the possibility to restore deleted records or remove them from the database permanently. These actions can be applied to a single record, multiple records, and recursively to child records (ex. restoring a page can restore all content elements on that page). Filtering by page and by table provides a quick overview of deleted records before taking action on them.",
             "homepage": "https://typo3.org",
             "time": "2020-05-19T13:16:31+00:00"
         },

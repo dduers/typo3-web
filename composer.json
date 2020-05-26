@@ -1,12 +1,15 @@
 {
     "name": "dduers/typo3-web",
-    "description": "TYPO3 Composer Installation",
+    "description": "TYPO3 Web (Productive)",
+    "homepage": "http://www.xsite.ch",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
             "name": "Daniel Duersteler",
-            "email": "daniel.duersteler@gmail.com"
+            "email": "daniel.duersteler@gmail.com",
+            "role": "Developer",
+            "homepage": "http://www.xsite.ch"
         }
     ],
     "require": {
@@ -21,11 +24,12 @@
         "typo3/cms-beuser": "^10.4",
         "typo3/cms-reports": "^10.4",
         "typo3/cms-setup": "^10.4",
+        "typo3/cms-lowlevel": "^10.4",
+        "typo3/cms-recycler": "^10.4",
         "helhum/typo3-secure-web": "^0.2.9",
         "bk2k/bootstrap-package": "^11.0",
         "georgringer/news": "^8.3",
-        "reelworx/rx-shariff": "^13.0",
-        "typo3/cms-lowlevel": "^10.4"
+        "reelworx/rx-shariff": "^13.0"
     },
     "extra": {
         "typo3/cms": {
