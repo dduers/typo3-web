@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6574b7b81069d1e9908fea03b5f401b7",
+    "content-hash": "618bb0537f8c5340950a2b1ac4496310",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
-            "version": "11.0.3",
+            "version": "12.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "5b3ea25073ebb569a27e48cf2d60edcbe8c1ccb4"
+                "reference": "4a09fa236f24e3c018baedd114dfc225663a1b68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/5b3ea25073ebb569a27e48cf2d60edcbe8c1ccb4",
-                "reference": "5b3ea25073ebb569a27e48cf2d60edcbe8c1ccb4",
+                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/4a09fa236f24e3c018baedd114dfc225663a1b68",
+                "reference": "4a09fa236f24e3c018baedd114dfc225663a1b68",
                 "shasum": ""
             },
             "require": {
@@ -29,33 +29,39 @@
                 "ext-pdo": "*",
                 "ext-simplexml": "*",
                 "php": ">=7.2.0",
-                "scssphp/scssphp": "^1.4.1",
-                "typo3/cms-backend": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-core": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-extbase": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-extensionmanager": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-fluid": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-frontend": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-install": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-rte-ckeditor": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-seo": "^9.5 || ^10.0 || 10.*@dev",
+                "scssphp/scssphp": "^1.6.0",
+                "typo3/cms-backend": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-core": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-extbase": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-extensionmanager": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-fluid": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-frontend": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-install": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-rte-ckeditor": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-seo": "^10.4 || ^11.3 || 11.*.*@dev",
                 "typo3fluid/fluid": "^2.5.2"
             },
-            "conflict": {
-                "scssphp/scssphp": "1.0.4 || 1.0.5"
-            },
             "require-dev": {
+                "b13/container": "^1.3",
                 "bk2k/demo-package": "@dev",
                 "bk2k/extension-helper": "^1.0",
-                "friendsofphp/php-cs-fixer": "^2.3.1",
-                "overtrue/phplint": "^1.1",
-                "typo3/cms-felogin": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-form": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-indexed-search": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-info": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-lowlevel": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/cms-tstemplate": "^9.5 || ^10.0 || 10.*@dev",
-                "typo3/testing-framework": "^4.9 || ^5.0"
+                "friendsofphp/php-cs-fixer": "^3.0.0",
+                "friendsoftypo3/phpstan-typo3": "^0.8.1",
+                "overtrue/phplint": "^2.3.5",
+                "phpstan/phpstan": "^0.12.87",
+                "phpstan/phpstan-deprecation-rules": "^0.12.6",
+                "phpstan/phpstan-phpunit": "^0.12.19",
+                "phpstan/phpstan-strict-rules": "^0.12.9",
+                "typo3/cms-belog": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-felogin": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-filelist": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-form": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-indexed-search": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-info": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-lowlevel": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-tstemplate": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/cms-workspaces": "^10.4 || ^11.3 || 11.*.*@dev",
+                "typo3/testing-framework": "^5.0 || ^6.4"
             },
             "type": "typo3-cms-extension",
             "extra": {
@@ -65,7 +71,7 @@
                     "app-dir": ".build"
                 },
                 "branch-alias": {
-                    "dev-BP_11-0": "11.0.x-dev"
+                    "dev-master": "12.0.x-dev"
                 }
             },
             "autoload": {
@@ -99,7 +105,7 @@
             ],
             "support": {
                 "issues": "https://github.com/benjaminkott/bootstrap_package/issues",
-                "source": "https://github.com/benjaminkott/bootstrap_package/tree/11.0.3"
+                "source": "https://github.com/benjaminkott/bootstrap_package/tree/12.0.0"
             },
             "funding": [
                 {
@@ -107,7 +113,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-04-27T06:42:23+00:00"
+            "time": "2021-08-13T11:22:42+00:00"
         },
         {
             "name": "cogpowered/finediff",
