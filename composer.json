@@ -26,10 +26,10 @@
         "typo3/cms-setup": "^10.4",
         "typo3/cms-lowlevel": "^10.4",
         "typo3/cms-recycler": "^10.4",
-        "helhum/typo3-secure-web": "^0.2.9",
         "georgringer/news": "^8.3",
         "reelworx/rx-shariff": "^13.0",
-        "bk2k/bootstrap-package": "12.0"
+        "bk2k/bootstrap-package": "12.0",
+        "typo3/cms-filelist": "10.4.*"
     },
     "extra": {
         "typo3/cms": {
