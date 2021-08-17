@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5074a4d55931e6946767ffd20171bc25",
+    "content-hash": "139bb41ae9d461088985d3697f70d385",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1125,6 +1125,72 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
             "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "helhum/typo3-secure-web",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helhum/typo3-secure-web.git",
+                "reference": "ce4e3519e28f00bf75c2b046b3f996c44e5a98bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helhum/typo3-secure-web/zipball/ce4e3519e28f00bf75c2b046b3f996c44e5a98bf",
+                "reference": "ce4e3519e28f00bf75c2b046b3f996c44e5a98bf",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-composer-installers": "^3.0",
+                "typo3/cms-core": ">=9.5.20"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "require-dev": {
+                "typo3-console/php-server-command": "@dev",
+                "typo3/cms-filelist": "@dev"
+            },
+            "type": "library",
+            "extra": {
+                "typo3/cms": {
+                    "root-dir": "private",
+                    "web-dir": "public"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Helhum\\Typo3SecureWeb\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Helmut Hummel",
+                    "email": "info@helhum.io",
+                    "homepage": "https://helhum.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Set up secure TYPO3 web directory containing only public assets",
+            "support": {
+                "issues": "https://github.com/helhum/typo3-secure-web/issues",
+                "source": "https://github.com/helhum/typo3-secure-web/tree/v0.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/helhum/19.99",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/helhum",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-07-13T12:04:52+00:00"
         },
         {
             "name": "masterminds/html5",
