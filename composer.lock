@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "139bb41ae9d461088985d3697f70d385",
+    "content-hash": "006b909b2e94cd16334ee931c386e051",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
-            "version": "12.0.0",
+            "version": "12.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "4a09fa236f24e3c018baedd114dfc225663a1b68"
+                "reference": "e3ca169db51d4bf17a6685176a4c020cb55f20c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/4a09fa236f24e3c018baedd114dfc225663a1b68",
-                "reference": "4a09fa236f24e3c018baedd114dfc225663a1b68",
+                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/e3ca169db51d4bf17a6685176a4c020cb55f20c9",
+                "reference": "e3ca169db51d4bf17a6685176a4c020cb55f20c9",
                 "shasum": ""
             },
             "require": {
@@ -71,7 +71,7 @@
                     "app-dir": ".build"
                 },
                 "branch-alias": {
-                    "dev-master": "12.0.x-dev"
+                    "dev-BP_12-0": "12.0.x-dev"
                 }
             },
             "autoload": {
@@ -105,7 +105,7 @@
             ],
             "support": {
                 "issues": "https://github.com/benjaminkott/bootstrap_package/issues",
-                "source": "https://github.com/benjaminkott/bootstrap_package/tree/12.0.0"
+                "source": "https://github.com/benjaminkott/bootstrap_package/tree/12.0.1"
             },
             "funding": [
                 {
@@ -113,7 +113,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-08-13T11:22:42+00:00"
+            "time": "2021-08-16T09:48:24+00:00"
         },
         {
             "name": "cogpowered/finediff",
