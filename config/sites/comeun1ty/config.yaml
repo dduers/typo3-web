@@ -1,0 +1,32 @@
+base: 'https://www.comeun1ty.net/'
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=32'
+languages:
+  -
+    title: EN
+    enabled: true
+    languageId: 0
+    base: /
+    typo3Language: default
+    locale: en_US
+    iso-639-1: en
+    navigationTitle: EN
+    hreflang: en-US
+    direction: ltr
+    flag: en-us-gb
+    websiteTitle: ''
+rootPageId: 23
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    map:
+      sitemap.xml: 1533906435
+routes:
+  -
+    route: robots.txt
+    type: staticText
+    content: "User-agent: *\r\nDisallow:\r\nSitemap: https://www.comeun1ty.net/sitemap.xml\r\n"
+websiteTitle: ''

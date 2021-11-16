@@ -1,0 +1,68 @@
+base: 'https://www.onemorephoto.ch/'
+baseVariants: {  }
+errorHandling:
+  -
+    errorCode: '404'
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=94'
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    base: /
+    typo3Language: de
+    locale: de_CH.UTF8
+    iso-639-1: de
+    navigationTitle: DE
+    hreflang: de-CH
+    direction: ltr
+    flag: ch
+    languageId: '0'
+rootPageId: 91
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    map:
+      sitemap.xml: 1533906435
+  News:
+    type: Extbase
+    extension: News
+    plugin: Pi1
+    routes:
+      -
+        routePath: /
+        _controller: 'News::list'
+      -
+        routePath: '/seite-{page}'
+        _controller: 'News::list'
+        _arguments:
+          page: '@widget_0/currentPage'
+      -
+        routePath: '/artikel/{news-title}'
+        _controller: 'News::detail'
+        _arguments:
+          news-title: news
+    defaultController: 'News::list'
+    defaults:
+      page: '0'
+    aspects:
+      news-title:
+        type: PersistedAliasMapper
+        tableName: tx_news_domain_model_news
+        routeFieldName: path_segment
+      page:
+        type: StaticRangeMapper
+        start: '1'
+        end: '100'
+routes:
+  -
+    route: robots.txt
+    type: staticText
+    content: "User-agent: *\r\nDisallow:\r\nSitemap: https://www.onemorephoto.ch/sitemap.xml\r\n"
+settings:
+  redirects:
+    autoUpdateSlugs: true
+    autoCreateRedirects: false
+    redirectTTL: 30
+    httpStatusCode: 307
+websiteTitle: ''
