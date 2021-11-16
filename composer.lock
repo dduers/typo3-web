@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "006b909b2e94cd16334ee931c386e051",
+    "content-hash": "66ce2e1d8ca3f0b1976a0a5ead3c6a39",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -852,20 +852,20 @@
         },
         {
             "name": "georgringer/news",
-            "version": "8.6.0",
+            "version": "9.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/georgringer/news.git",
-                "reference": "9d9e944a47f727e43e9169bbd2fe59692105416a"
+                "reference": "3123d005731be78a850742472bdcb93585f531e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/georgringer/news/zipball/9d9e944a47f727e43e9169bbd2fe59692105416a",
-                "reference": "9d9e944a47f727e43e9169bbd2fe59692105416a",
+                "url": "https://api.github.com/repos/georgringer/news/zipball/3123d005731be78a850742472bdcb93585f531e1",
+                "reference": "3123d005731be78a850742472bdcb93585f531e1",
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "^9.5.17 || ^10.4.12"
+                "typo3/cms-core": "^10.4 || ^11"
             },
             "conflict": {
                 "symfony/finder": "2.7.44 || 2.8.37 || 3.4.7 || 4.0.7"
@@ -874,17 +874,19 @@
                 "typo3-ter/news": "self.version"
             },
             "require-dev": {
-                "php-coveralls/php-coveralls": "^2.1"
+                "php-coveralls/php-coveralls": "^2.1",
+                "typo3/cms-install": "^10.4 || ^11"
             },
             "suggest": {
-                "reelworx/rx-shariff": "^12 || ^13"
+                "georgringer/numbered-pagination": "Improved pagination API",
+                "reelworx/rx-shariff": "GDPR compliant social sharing"
             },
             "type": "typo3-cms-extension",
             "extra": {
                 "typo3/cms": {
                     "extension-key": "news",
-                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
-                    "web-dir": ".Build/Web"
+                    "app-dir": ".Build",
+                    "web-dir": ".Build/public"
                 }
             },
             "autoload": {
@@ -912,7 +914,7 @@
             ],
             "support": {
                 "issues": "https://github.com/georgringer/news/issues",
-                "source": "https://github.com/georgringer/news/tree/8.6.0"
+                "source": "https://github.com/georgringer/news/tree/9.1.0"
             },
             "funding": [
                 {
@@ -924,7 +926,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-07-22T09:55:52+00:00"
+            "time": "2021-11-11T18:04:01+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
