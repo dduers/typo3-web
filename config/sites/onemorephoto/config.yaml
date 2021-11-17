@@ -1,8 +1,11 @@
 base: 'https://www.onemorephoto.ch/'
-baseVariants: {  }
+baseVariants:
+  -
+    base: 'http://domain01.local'
+    condition: 'applicationContext == "Development"'
 errorHandling:
   -
-    errorCode: '404'
+    errorCode: 404
     errorHandler: Page
     errorContentSource: 't3://page?uid=94'
 languages:
@@ -17,7 +20,7 @@ languages:
     hreflang: de-CH
     direction: ltr
     flag: ch
-    languageId: '0'
+    languageId: 0
 rootPageId: 91
 routeEnhancers:
   PageTypeSuffix:
@@ -33,7 +36,7 @@ routeEnhancers:
         routePath: /
         _controller: 'News::list'
       -
-        routePath: '/seite-{page}'
+        routePath: '/seite-{currentPage}'
         _controller: 'News::list'
         _arguments:
           page: '@widget_0/currentPage'

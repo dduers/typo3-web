@@ -1,8 +1,4 @@
 base: 'https://www.kayoscreed.ch/'
-baseVariants:
-  -
-    base: 'http://domain01.local'
-    condition: 'applicationContext == "Development"'
 errorHandling:
   -
     errorCode: 404
