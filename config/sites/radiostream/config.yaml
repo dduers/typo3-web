@@ -29,4 +29,10 @@ routes:
     route: robots.txt
     type: staticText
     content: "User-agent: *\r\nDisallow:\r\nSitemap: https://www.radiostream.ch/sitemap.xml\r\n"
+settings:
+  redirects:
+    autoUpdateSlugs: true
+    autoCreateRedirects: false
+    redirectTTL: 30
+    httpStatusCode: 307
 websiteTitle: ''
