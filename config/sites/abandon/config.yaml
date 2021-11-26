@@ -1,4 +1,9 @@
 base: 'https://www.abandon.one'
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=122'
 languages:
   -
     title: English
@@ -14,4 +19,10 @@ languages:
     flag: us
     websiteTitle: ''
 rootPageId: 116
+settings:
+  redirects:
+    autoUpdateSlugs: true
+    autoCreateRedirects: false
+    redirectTTL: 30
+    httpStatusCode: 307
 websiteTitle: 'Abandoned Computer Enthusiast (ACE)'
