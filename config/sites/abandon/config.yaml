@@ -19,6 +19,41 @@ languages:
     flag: us
     websiteTitle: ''
 rootPageId: 116
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    map:
+      sitemap.xml: 1533906435
+  News:
+    type: Extbase
+    extension: News
+    plugin: Pi1
+    routes:
+      -
+        routePath: /
+        _controller: 'News::list'
+      -
+        routePath: '/page-{currentPage}'
+        _controller: 'News::list'
+        _arguments:
+          page: '@widget_0/currentPage'
+      -
+        routePath: '/article/{news-title}'
+        _controller: 'News::detail'
+        _arguments:
+          news-title: news
+    defaultController: 'News::list'
+    defaults:
+      page: '0'
+    aspects:
+      news-title:
+        type: PersistedAliasMapper
+        tableName: tx_news_domain_model_news
+        routeFieldName: path_segment
+      page:
+        type: StaticRangeMapper
+        start: '1'
+        end: '100'
 settings:
   redirects:
     autoUpdateSlugs: true
