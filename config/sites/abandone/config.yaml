@@ -1,4 +1,4 @@
-base: 'https://www.abandon.one'
+base: 'https://www.aband.one'
 errorHandling:
   -
     errorCode: 404
