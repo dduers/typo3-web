@@ -68,4 +68,4 @@ settings:
     autoCreateRedirects: false
     redirectTTL: 30
     httpStatusCode: 307
-websiteTitle: ''
+websiteTitle: 'One More Photo'
