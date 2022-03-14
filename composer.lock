@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bacon/BaconQrCode.git",
-                "reference": "0069435e2a01a57193b25790f105a5d3168653c1"
+                "reference": "d70c840f68657ce49094b8d91f9ee0cc07fbf66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/0069435e2a01a57193b25790f105a5d3168653c1",
-                "reference": "0069435e2a01a57193b25790f105a5d3168653c1",
+                "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/d70c840f68657ce49094b8d91f9ee0cc07fbf66c",
+                "reference": "d70c840f68657ce49094b8d91f9ee0cc07fbf66c",
                 "shasum": ""
             },
             "require": {
@@ -56,9 +56,9 @@
             "homepage": "https://github.com/Bacon/BaconQrCode",
             "support": {
                 "issues": "https://github.com/Bacon/BaconQrCode/issues",
-                "source": "https://github.com/Bacon/BaconQrCode/tree/2.0.6"
+                "source": "https://github.com/Bacon/BaconQrCode/tree/2.0.7"
             },
-            "time": "2022-02-04T20:16:05+00:00"
+            "time": "2022-03-14T02:02:36+00:00"
         },
         {
             "name": "bk2k/bootstrap-package",
@@ -953,16 +953,16 @@
         },
         {
             "name": "georgringer/news",
-            "version": "9.2.0",
+            "version": "9.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/georgringer/news.git",
-                "reference": "26c9807a25e1af51276997897f66df82d0c2d77f"
+                "reference": "1382fe4f0dc2991d0e42971797dc80ac7cd2e13c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/georgringer/news/zipball/26c9807a25e1af51276997897f66df82d0c2d77f",
-                "reference": "26c9807a25e1af51276997897f66df82d0c2d77f",
+                "url": "https://api.github.com/repos/georgringer/news/zipball/1382fe4f0dc2991d0e42971797dc80ac7cd2e13c",
+                "reference": "1382fe4f0dc2991d0e42971797dc80ac7cd2e13c",
                 "shasum": ""
             },
             "require": {
@@ -1015,7 +1015,7 @@
             ],
             "support": {
                 "issues": "https://github.com/georgringer/news/issues",
-                "source": "https://github.com/georgringer/news/tree/9.2.0"
+                "source": "https://github.com/georgringer/news/tree/9.3.0"
             },
             "funding": [
                 {
@@ -1027,7 +1027,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-01-25T06:55:14+00:00"
+            "time": "2022-03-14T07:12:56+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
