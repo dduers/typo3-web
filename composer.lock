@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80f86e553f1ac10154b24afd0f0f990e",
+    "content-hash": "2d239e24dea3b518710b017d58c43601",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -945,16 +945,16 @@
         },
         {
             "name": "georgringer/news",
-            "version": "9.4.0",
+            "version": "10.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/georgringer/news.git",
-                "reference": "dbecd7289de6554c06b733de7c8337c52cb3a130"
+                "reference": "d175a273ce2be454524f218d5685e39d8d92cdcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/georgringer/news/zipball/dbecd7289de6554c06b733de7c8337c52cb3a130",
-                "reference": "dbecd7289de6554c06b733de7c8337c52cb3a130",
+                "url": "https://api.github.com/repos/georgringer/news/zipball/d175a273ce2be454524f218d5685e39d8d92cdcb",
+                "reference": "d175a273ce2be454524f218d5685e39d8d92cdcb",
                 "shasum": ""
             },
             "require": {
@@ -971,6 +971,7 @@
                 "typo3/cms-install": "^10.4 || ^11"
             },
             "suggest": {
+                "georgringer/news-tagsuggest": "On the fly creation of tag records within a news record",
                 "georgringer/numbered-pagination": "Improved pagination API",
                 "reelworx/rx-shariff": "GDPR compliant social sharing"
             },
@@ -994,6 +995,7 @@
             "authors": [
                 {
                     "name": "Georg Ringer",
+                    "homepage": "https://ringer.it",
                     "role": "Developer"
                 }
             ],
@@ -1020,7 +1022,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-04-26T17:07:12+00:00"
+            "time": "2022-09-22T18:22:16+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

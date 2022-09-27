@@ -4,14 +4,12 @@
     "homepage": "http://www.xsite.ch",
     "type": "project",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Daniel Duersteler",
-            "email": "daniel.duersteler@gmail.com",
-            "role": "Developer",
-            "homepage": "http://www.xsite.ch"
-        }
-    ],
+    "authors": [{
+        "name": "Daniel Duersteler",
+        "email": "daniel.duersteler@gmail.com",
+        "role": "Developer",
+        "homepage": "http://www.xsite.ch"
+    }],
     "require": {
         "typo3/cms-tstemplate": "^11.5",
         "typo3/cms-form": "^11.5",
@@ -27,7 +25,7 @@
         "typo3/cms-lowlevel": "^11.5",
         "typo3/cms-recycler": "^11.5",
         "typo3/cms-filelist": "^11.5",
-        "georgringer/news": "^9.1",
+        "georgringer/news": "^10.0",
         "reelworx/rx-shariff": "^14.0",
         "bk2k/bootstrap-package": "^12.0",
         "helhum/typo3-secure-web": "^0.3.2"
