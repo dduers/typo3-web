@@ -946,16 +946,16 @@
         },
         {
             "name": "georgringer/news",
-            "version": "10.0.2",
+            "version": "10.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/georgringer/news.git",
-                "reference": "fee57ce6c9108bdb3a71c8577d39775c42663ccb"
+                "reference": "5325ea6a7bf490a9deabdf1f86372ad128a5e205"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/georgringer/news/zipball/fee57ce6c9108bdb3a71c8577d39775c42663ccb",
-                "reference": "fee57ce6c9108bdb3a71c8577d39775c42663ccb",
+                "url": "https://api.github.com/repos/georgringer/news/zipball/5325ea6a7bf490a9deabdf1f86372ad128a5e205",
+                "reference": "5325ea6a7bf490a9deabdf1f86372ad128a5e205",
                 "shasum": ""
             },
             "require": {
@@ -1031,7 +1031,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-10-27T14:16:25+00:00"
+            "time": "2022-11-21T12:32:44+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
