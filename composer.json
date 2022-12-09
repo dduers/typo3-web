@@ -27,8 +27,8 @@
         "typo3/cms-filelist": "^11.5",
         "georgringer/news": "^10.0",
         "reelworx/rx-shariff": "^14.0",
-        "bk2k/bootstrap-package": "^12.0",
-        "helhum/typo3-secure-web": "^0.3.2"
+        "helhum/typo3-secure-web": "^0.3.2",
+        "bk2k/bootstrap-package": "^13.0"
     },
     "extra": {
         "typo3/cms": {
