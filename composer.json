@@ -1,14 +1,14 @@
 {
     "name": "dduers/typo3-web",
     "description": "TYPO3 Web (Productive)",
-    "homepage": "http://www.xsite.ch",
+    "homepage": "https://www.xsite.ch",
     "type": "project",
     "license": "MIT",
     "authors": [{
         "name": "Daniel Duersteler",
         "email": "daniel.duersteler@gmail.com",
         "role": "Developer",
-        "homepage": "http://www.xsite.ch"
+        "homepage": "https://www.xsite.ch"
     }],
     "require": {
         "bk2k/bootstrap-package": "^13.0",
