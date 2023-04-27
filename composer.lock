@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d87896a6f9cdb3e3d9a2c779fcdae2c6",
+    "content-hash": "349aeb3d320ae5df55e5f691ff989ff3",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2355,23 +2355,21 @@
         },
         {
             "name": "reelworx/rx-shariff",
-            "version": "v14.0.2",
+            "version": "v15.0.3",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/reelworx/rx_shariff.git",
-                "reference": "0b8298d8f1f83132eb459421e429e3526788fb07"
+                "reference": "d8efcc922c8750f30679038124a8c3fc96e1474c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/reelworx/rx_shariff/get/0b8298d8f1f83132eb459421e429e3526788fb07.zip",
-                "reference": "0b8298d8f1f83132eb459421e429e3526788fb07",
+                "url": "https://bitbucket.org/reelworx/rx_shariff/get/d8efcc922c8750f30679038124a8c3fc96e1474c.zip",
+                "reference": "d8efcc922c8750f30679038124a8c3fc96e1474c",
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "^10.4 | ^11.5"
-            },
-            "replace": {
-                "typo3-ter/rx-shariff": "self.version"
+                "php": ">=8.0 <8.3",
+                "typo3/cms-core": "^11.5 | ^12.2"
             },
             "type": "typo3-cms-extension",
             "extra": {
@@ -2379,7 +2377,7 @@
                     "extension-key": "rx_shariff"
                 },
                 "branch-alias": {
-                    "dev-master": "v14.x-dev"
+                    "dev-master": "v15.x-dev"
                 }
             },
             "autoload": {
@@ -2402,11 +2400,11 @@
             "description": "Shariff implementation for TYPO3 CMS including the backend module, a viewhelper and a plugin.",
             "homepage": "https://bitbucket.org/reelworx/rx_shariff",
             "support": {
-                "docs": "https://docs.typo3.org/p/reelworx/rx-shariff/master/en-us/",
+                "docs": "https://docs.typo3.org/p/reelworx/rx-shariff/main/en-us/",
                 "issues": "https://bitbucket.org/reelworx/rx_shariff/issues",
                 "source": "https://bitbucket.org/reelworx/rx_shariff/src"
             },
-            "time": "2021-11-02T07:10:49+00:00"
+            "time": "2023-04-26T18:51:10+00:00"
         },
         {
             "name": "scssphp/scssphp",
