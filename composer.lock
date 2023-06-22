@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c881694058de68af46e94ed6805a187",
+    "content-hash": "e4f4e6c6cc6c3e52d737ed243ffd5999",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -62,16 +62,16 @@
         },
         {
             "name": "bk2k/bootstrap-package",
-            "version": "13.0.2",
+            "version": "14.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "113524787986891068895ac6c3c6792a0b515e0e"
+                "reference": "a9914eb78915ee33a47e4317637b3b03a692fe58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/113524787986891068895ac6c3c6792a0b515e0e",
-                "reference": "113524787986891068895ac6c3c6792a0b515e0e",
+                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/a9914eb78915ee33a47e4317637b3b03a692fe58",
+                "reference": "a9914eb78915ee33a47e4317637b3b03a692fe58",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
                 "b13/container": "^2.0",
                 "bk2k/demo-package": "@dev",
                 "bk2k/extension-helper": "^2.0",
-                "friendsofphp/php-cs-fixer": "^3.0.0",
+                "friendsofphp/php-cs-fixer": "^3.14",
                 "friendsoftypo3/phpstan-typo3": "^0.9",
                 "overtrue/phplint": "^3.2 || ^4.3 || ^5.3",
                 "phpstan/phpstan": "^1.7",
@@ -119,7 +119,7 @@
             "type": "typo3-cms-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "13.0.x-dev"
+                    "dev-master": "14.0.x-dev"
                 },
                 "typo3/cms": {
                     "extension-key": "bootstrap_package",
@@ -167,7 +167,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-04-25T17:33:53+00:00"
+            "time": "2023-06-22T08:27:07+00:00"
         },
         {
             "name": "christian-riesen/base32",

@@ -11,7 +11,7 @@
         "homepage": "https://www.xsite.ch"
     }],
     "require": {
-        "bk2k/bootstrap-package": "^13.0",
+        "bk2k/bootstrap-package": "*",
         "georgringer/news": "^11.0",
         "helhum/typo3-console": "*",
         "reelworx/rx-shariff": "^15.0",
