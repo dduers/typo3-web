@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4f4e6c6cc6c3e52d737ed243ffd5999",
+    "content-hash": "fa6a14cafe83de012048bd78f0b79676",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2628,59 +2628,6 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "reelworx/rx-shariff",
-            "version": "v15.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/reelworx/rx_shariff.git",
-                "reference": "435462c8ec6587c7213d8e30b404d06e328bc97a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/reelworx/rx_shariff/get/435462c8ec6587c7213d8e30b404d06e328bc97a.zip",
-                "reference": "435462c8ec6587c7213d8e30b404d06e328bc97a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.0 <8.3",
-                "typo3/cms-core": "^11.5 | ^12.2"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "rx_shariff"
-                },
-                "branch-alias": {
-                    "dev-master": "v15.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Heise\\Shariff\\": "Classes/Shariff/",
-                    "Reelworx\\RxShariff\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Reelworx GmbH",
-                    "homepage": "https://reelworx.at/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Shariff implementation for TYPO3 CMS including the backend module, a viewhelper and a plugin.",
-            "homepage": "https://bitbucket.org/reelworx/rx_shariff",
-            "support": {
-                "docs": "https://docs.typo3.org/p/reelworx/rx-shariff/main/en-us/",
-                "issues": "https://bitbucket.org/reelworx/rx_shariff/issues",
-                "source": "https://bitbucket.org/reelworx/rx_shariff/src"
-            },
-            "time": "2023-06-16T14:41:36+00:00"
         },
         {
             "name": "scssphp/scssphp",
