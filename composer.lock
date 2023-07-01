@@ -62,16 +62,16 @@
         },
         {
             "name": "bk2k/bootstrap-package",
-            "version": "14.0.1",
+            "version": "14.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "aa92b90761f1ee56b231ba204ecca25f6732aa72"
+                "reference": "ee7b28acd9e8b5f0c6eae34f67a67bcc68e0dc96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/aa92b90761f1ee56b231ba204ecca25f6732aa72",
-                "reference": "aa92b90761f1ee56b231ba204ecca25f6732aa72",
+                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/ee7b28acd9e8b5f0c6eae34f67a67bcc68e0dc96",
+                "reference": "ee7b28acd9e8b5f0c6eae34f67a67bcc68e0dc96",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +167,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-06-26T06:26:58+00:00"
+            "time": "2023-06-30T13:43:27+00:00"
         },
         {
             "name": "christian-riesen/base32",
