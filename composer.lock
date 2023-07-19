@@ -62,16 +62,16 @@
         },
         {
             "name": "bk2k/bootstrap-package",
-            "version": "14.0.4",
+            "version": "14.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "8093649b89f940f62b55b368abea2c4a7cb57d26"
+                "reference": "a4e2c3a4f8d9c088610458bb540895d3af7eacc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/8093649b89f940f62b55b368abea2c4a7cb57d26",
-                "reference": "8093649b89f940f62b55b368abea2c4a7cb57d26",
+                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/a4e2c3a4f8d9c088610458bb540895d3af7eacc8",
+                "reference": "a4e2c3a4f8d9c088610458bb540895d3af7eacc8",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +167,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-07-12T08:55:23+00:00"
+            "time": "2023-07-17T12:00:46+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -958,16 +958,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.8.0",
+            "version": "v6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b"
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/48b0210c51718d682e53210c24d25c5a10a2299b",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
                 "shasum": ""
             },
             "require": {
@@ -1015,9 +1015,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
             },
-            "time": "2023-06-20T16:45:35+00:00"
+            "time": "2023-07-14T18:33:00+00:00"
         },
         {
             "name": "georgringer/news",
