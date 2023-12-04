@@ -12,6 +12,7 @@
     }],
     "require": {
         "bk2k/bootstrap-package": "*",
+        "dduers/sitepackage-xsite": "@dev",
         "georgringer/news": "^11.0",
         "helhum/typo3-console": "*",
         "typo3/cms-backend": "^12.0",
