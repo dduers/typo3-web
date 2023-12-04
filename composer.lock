@@ -284,12 +284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dduers/sitepackage-xsite.git",
-                "reference": "cc90d522259b249a3239b7ace5ec04b5ba4fd880"
+                "reference": "6d4dc93794a9a4bb36cc5dfe8dfab0ff556fe944"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dduers/sitepackage-xsite/zipball/cc90d522259b249a3239b7ace5ec04b5ba4fd880",
-                "reference": "cc90d522259b249a3239b7ace5ec04b5ba4fd880",
+                "url": "https://api.github.com/repos/dduers/sitepackage-xsite/zipball/6d4dc93794a9a4bb36cc5dfe8dfab0ff556fe944",
+                "reference": "6d4dc93794a9a4bb36cc5dfe8dfab0ff556fe944",
                 "shasum": ""
             },
             "require": {
@@ -322,7 +322,7 @@
                 "issues": "https://github.com/dduers/sitepackage-xsite/issues",
                 "source": "https://github.com/dduers/sitepackage-xsite/tree/main"
             },
-            "time": "2023-12-04T17:49:07+00:00"
+            "time": "2023-12-04T18:03:08+00:00"
         },
         {
             "name": "doctrine/annotations",
