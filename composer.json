@@ -48,7 +48,7 @@
     },
     "scripts":{
 		"typo3-cms-scripts": [
-			"php vendor/typo3/cms-cli/typo3 install:fixfolderstructure"
+			"/usr/local/php82/bin/php vendor/typo3/cms-cli/typo3 install:fixfolderstructure"
 		],
 		"post-autoload-dump": [
 			"@typo3-cms-scripts"
