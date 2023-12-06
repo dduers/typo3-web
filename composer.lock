@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26361802d01c2db933c76ecefffaaf88",
+    "content-hash": "c250d0ac83d3ca1bb28758131c292e3c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1002,6 +1002,78 @@
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
             },
             "time": "2022-02-21T09:13:59+00:00"
+        },
+        {
+            "name": "evoweb/sf-register",
+            "version": "12.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evoWeb/sf_register.git",
+                "reference": "d31469681317472864d318deaf9209699399afd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evoWeb/sf_register/zipball/d31469681317472864d318deaf9209699399afd1",
+                "reference": "d31469681317472864d318deaf9209699399afd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "typo3/cms-backend": "^12.4 || dev-main",
+                "typo3/cms-core": "^12.4",
+                "typo3/cms-extbase": "^12.4 || dev-main",
+                "typo3/cms-fluid": "^12.4 || dev-main",
+                "typo3/cms-frontend": "^12.4 || dev-main"
+            },
+            "require-dev": {
+                "typo3/testing-framework": "^8.0.6"
+            },
+            "suggest": {
+                "evoweb/recaptcha": "^12.0",
+                "sjbr/static-info-tables": "dev-master"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "sf_register"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Evoweb\\SfRegister\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Frontend User Registration: Offers the possibility to maintain the fe_user data in frontend.",
+            "homepage": "https://www.evoweb.de",
+            "keywords": [
+                "Double-optin",
+                "Edit user data",
+                "Resend optin mail",
+                "TYPO3 CMS",
+                "delete account",
+                "frontend",
+                "user registration"
+            ],
+            "support": {
+                "docs": "https://docs.typo3.org/p/evoweb/sf-register/main/en-us/",
+                "issues": "https://github.com/evoWeb/sf_register/issues",
+                "source": "https://github.com/evoWeb/sf_register"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/garbast",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/garbast",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-11-19T08:56:12+00:00"
         },
         {
             "name": "firebase/php-jwt",
