@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c250d0ac83d3ca1bb28758131c292e3c",
+    "content-hash": "bb634a2954d4b115ecc10ea67d7e99be",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2826,6 +2826,69 @@
                 "source": "https://github.com/scssphp/scssphp/tree/v1.12.0"
             },
             "time": "2023-11-14T14:56:09+00:00"
+        },
+        {
+            "name": "sjbr/static-info-tables",
+            "version": "v12.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://codeberg.org/sjbr/static-info-tables",
+                "reference": "a34d55fa3bf3b3c3c0396ddd2f9818b9cdcfaeab"
+            },
+            "require": {
+                "typo3/cms-backend": ">=12.4, <13.0",
+                "typo3/cms-core": ">=12.4, <13.0",
+                "typo3/cms-extbase": ">=12.4, <13.0",
+                "typo3/cms-extensionmanager": ">=12.4, <13.0",
+                "typo3/cms-fluid": ">=12.4, <13.0",
+                "typo3/cms-frontend": ">=12.4, <13.0"
+            },
+            "replace": {
+                "typo3-ter/static-info-tables": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "static_info_tables"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SJBR\\StaticInfoTables\\": "Classes/"
+                },
+                "exclude-from-classmap": [
+                    "Classes/Domain/Model/Country",
+                    "Classes/Domain/Model/CountryZone",
+                    "Classes/Domain/Model/Currency",
+                    "Classes/Domain/Model/Language",
+                    "Classes/Domain/Model/Territory"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stanislas Rolland",
+                    "homepage": "https://www.sjbr.ca",
+                    "role": "Developer"
+                },
+                {
+                    "name": "René Fritz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Data and API for countries, languages and currencies for use in TYPO3 CMS.",
+            "homepage": "https://codeberg.org/sjbr/static-info-tables",
+            "keywords": [
+                "Static Info Tables",
+                "typo3"
+            ],
+            "support": {
+                "issues": "https://codeberg.org/sjbr/static-info-tables/issues"
+            },
+            "time": "2023-11-23T17:05:30+00:00"
         },
         {
             "name": "symfony/cache",

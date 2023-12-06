@@ -16,6 +16,7 @@
         "evoweb/sf-register": "^12.0",
         "georgringer/news": "^11.0",
         "helhum/typo3-console": "*",
+        "sjbr/static-info-tables": "*",
         "typo3/cms-backend": "^12.0",
         "typo3/cms-belog": "^12.0",
         "typo3/cms-beuser": "^12.0",
