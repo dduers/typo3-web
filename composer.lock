@@ -284,12 +284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dduers/sitepackage-comeun1ty.git",
-                "reference": "c1766d8c3cfb98edd43cf897d6814159776d8207"
+                "reference": "aa3e9d97b0332589ffbc58e3f41b32010720bdaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dduers/sitepackage-comeun1ty/zipball/c1766d8c3cfb98edd43cf897d6814159776d8207",
-                "reference": "c1766d8c3cfb98edd43cf897d6814159776d8207",
+                "url": "https://api.github.com/repos/dduers/sitepackage-comeun1ty/zipball/aa3e9d97b0332589ffbc58e3f41b32010720bdaf",
+                "reference": "aa3e9d97b0332589ffbc58e3f41b32010720bdaf",
                 "shasum": ""
             },
             "require": {
@@ -322,7 +322,7 @@
                 "issues": "https://github.com/dduers/sitepackage-comeun1ty/issues",
                 "source": "https://github.com/dduers/sitepackage-comeun1ty/tree/main"
             },
-            "time": "2023-12-07T21:08:39+00:00"
+            "time": "2023-12-07T21:47:20+00:00"
         },
         {
             "name": "dduers/sitepackage-xsite",
