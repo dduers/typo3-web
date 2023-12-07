@@ -12,6 +12,7 @@
     }],
     "require": {
         "bk2k/bootstrap-package": "*",
+        "dduers/sitepackage-comeun1ty": "@dev",
         "dduers/sitepackage-xsite": "@dev",
         "evoweb/sf-register": "^12.0",
         "georgringer/news": "^11.0",

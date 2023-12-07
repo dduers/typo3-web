@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb634a2954d4b115ecc10ea67d7e99be",
+    "content-hash": "5cf3b88eefdf267ca49764242a39661b",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -277,6 +277,52 @@
                 "source": "https://github.com/DASPRiD/Enum/tree/1.0.5"
             },
             "time": "2023-08-25T16:18:39+00:00"
+        },
+        {
+            "name": "dduers/sitepackage-comeun1ty",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dduers/sitepackage-comeun1ty.git",
+                "reference": "e92fd89ec92e6042627524ca7c3284a3c5054710"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dduers/sitepackage-comeun1ty/zipball/e92fd89ec92e6042627524ca7c3284a3c5054710",
+                "reference": "e92fd89ec92e6042627524ca7c3284a3c5054710",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^12.0",
+                "typo3/cms-fluid-styled-content": "^12.0",
+                "typo3/cms-rte-ckeditor": "^12.0"
+            },
+            "default-branch": true,
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "sitepackage_comeun1ty"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dduers\\SitepackageComeun1ty\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Site package for Comeun1ty.NET TYPO3 webpage",
+            "homepage": "https://www.comeun1ty.net",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "support": {
+                "issues": "https://github.com/dduers/sitepackage-comeun1ty/issues",
+                "source": "https://github.com/dduers/sitepackage-comeun1ty/tree/main"
+            },
+            "time": "2023-12-07T11:29:11+00:00"
         },
         {
             "name": "dduers/sitepackage-xsite",
@@ -7967,6 +8013,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "dduers/sitepackage-comeun1ty": 20,
         "dduers/sitepackage-xsite": 20
     },
     "prefer-stable": false,
