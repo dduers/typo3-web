@@ -3,4 +3,5 @@ public
 var
 vendor
 config
+archive.tar
 .htaccess
