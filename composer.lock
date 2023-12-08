@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cf3b88eefdf267ca49764242a39661b",
+    "content-hash": "34fe932a093489bcf8228ec0a5020d35",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -284,15 +284,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dduers/sitepackage-comeun1ty.git",
-                "reference": "92cda5f0efef617c3cdcb6696a0af86de5c3dc2d"
+                "reference": "9fec3d1e8cdfccc67cb4cad0f3930739a14fcc86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dduers/sitepackage-comeun1ty/zipball/92cda5f0efef617c3cdcb6696a0af86de5c3dc2d",
-                "reference": "92cda5f0efef617c3cdcb6696a0af86de5c3dc2d",
+                "url": "https://api.github.com/repos/dduers/sitepackage-comeun1ty/zipball/9fec3d1e8cdfccc67cb4cad0f3930739a14fcc86",
+                "reference": "9fec3d1e8cdfccc67cb4cad0f3930739a14fcc86",
                 "shasum": ""
             },
             "require": {
+                "evoweb/sf-register": "^12.0",
+                "sjbr/static-info-tables": "*",
                 "typo3/cms-core": "^12.0",
                 "typo3/cms-fluid-styled-content": "^12.0",
                 "typo3/cms-rte-ckeditor": "^12.0"
@@ -322,7 +324,7 @@
                 "issues": "https://github.com/dduers/sitepackage-comeun1ty/issues",
                 "source": "https://github.com/dduers/sitepackage-comeun1ty/tree/main"
             },
-            "time": "2023-12-08T03:03:18+00:00"
+            "time": "2023-12-08T03:13:19+00:00"
         },
         {
             "name": "dduers/sitepackage-xsite",
