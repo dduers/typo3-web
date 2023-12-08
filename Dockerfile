@@ -42,8 +42,8 @@ COPY archive.tar /var/www/html/
 RUN tar -xf archive.tar -C /var/www/html
 RUN cd /var/www/html
 RUN /usr/local/bin/composer i
-#RUN chown -R www-data. .
-#RUN chown -R www-data .
+RUN chown -R www-data. .
+RUN chown -R www-data .
 
 # default to shell
 RUN ln -sf /bin/bash /bin/sh
