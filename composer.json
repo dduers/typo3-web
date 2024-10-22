@@ -14,7 +14,7 @@
         "dduers/sitepackage-comeun1ty": "@dev",
         "dduers/sitepackage-xsite": "@dev",
         "bk2k/bootstrap-package": "*",
-        "georgringer/news": "^11.0",
+        "georgringer/news": "^12.0",
         "helhum/typo3-console": "*",
         "typo3/cms-backend": "^12.0",
         "typo3/cms-belog": "^12.0",
