@@ -11,7 +11,7 @@ services:
       - "PS1=$$(whoami):$$(pwd) $$ "
 
   mariadb:
-    image: mariadb:10.3
+    image: mariadb:10.6
     restart: always
     ports:
       - "3306:3306"

@@ -1,10 +1,12 @@
-FROM php:8.2.3-apache
+FROM php:8.3-apache
 
 # install libs and mods
 RUN apt-get update && apt-get install -y
 RUN apt-get install -y libmariadb-dev libpng-dev libjpeg-dev libzip-dev libxml2-dev libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpq-dev zlib1g-dev graphicsmagick
 RUN docker-php-ext-configure gd --with-libdir=/usr/include/ --with-jpeg --with-freetype
-RUN docker-php-ext-install -j$(nproc) mysqli soap gd zip opcache intl pdo_mysql
+RUN docker-php-ext-install -j$(nproc) mysqli soap gd zip opcache intl pdo_mysql exif
+RUN apt-get update && apt-get install -y
+RUN apt install -y git
 
 # timezone config
 ENV TZ=Europe/Zurich
