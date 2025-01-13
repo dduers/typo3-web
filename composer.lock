@@ -953,16 +953,16 @@
         },
         {
             "name": "evoweb/sf-register",
-            "version": "13.1.0",
+            "version": "13.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/evoWeb/sf_register.git",
-                "reference": "50cc43d3686c2fc283052e60bdf5b5c28e8d40b2"
+                "reference": "a5c7a879d53f556e4b2e79cec59e8210c54dcc52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/evoWeb/sf_register/zipball/50cc43d3686c2fc283052e60bdf5b5c28e8d40b2",
-                "reference": "50cc43d3686c2fc283052e60bdf5b5c28e8d40b2",
+                "url": "https://api.github.com/repos/evoWeb/sf_register/zipball/a5c7a879d53f556e4b2e79cec59e8210c54dcc52",
+                "reference": "a5c7a879d53f556e4b2e79cec59e8210c54dcc52",
                 "shasum": ""
             },
             "require": {
@@ -1039,7 +1039,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-21T07:57:21+00:00"
+            "time": "2025-01-10T20:10:17+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -1532,16 +1532,16 @@
         },
         {
             "name": "helhum/config-loader",
-            "version": "v0.12.5",
+            "version": "v0.12.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helhum/config-loader.git",
-                "reference": "f761ab3fcf888b9d17d679d94b14aca24fe6bfab"
+                "reference": "4538ad189ebbb319d97697f350401150dd7a6155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helhum/config-loader/zipball/f761ab3fcf888b9d17d679d94b14aca24fe6bfab",
-                "reference": "f761ab3fcf888b9d17d679d94b14aca24fe6bfab",
+                "url": "https://api.github.com/repos/helhum/config-loader/zipball/4538ad189ebbb319d97697f350401150dd7a6155",
+                "reference": "4538ad189ebbb319d97697f350401150dd7a6155",
                 "shasum": ""
             },
             "require": {
@@ -1550,7 +1550,7 @@
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpunit/phpunit": "^8.5",
-                "symfony/yaml": "^2.8 || ^3.3 || ^4.0 || ^5.0"
+                "symfony/yaml": "^2.8 || ^3.3 || ^4.0 || ^5.0 || ^6.0"
             },
             "suggest": {
                 "ext-yaml": "For improved performance when parsing yaml files you should use the PECL YAML Parser php extension",
@@ -1574,7 +1574,7 @@
             "description": "Generic config loader with context and environment support.",
             "support": {
                 "issues": "https://github.com/helhum/config-loader/issues",
-                "source": "https://github.com/helhum/config-loader/tree/v0.12.5"
+                "source": "https://github.com/helhum/config-loader/tree/v0.12.6"
             },
             "funding": [
                 {
@@ -1586,7 +1586,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-21T15:32:39+00:00"
+            "time": "2024-12-16T10:48:26+00:00"
         },
         {
             "name": "helhum/php-error-reporting",
